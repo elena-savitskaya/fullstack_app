@@ -1,0 +1,7 @@
+{
+    "port": 5000,
+    "jwtSecret": "savitskaya fullstack",
+    "mongoUri": "mongodb+srv://test:test@cluster0.skgqjjd.mongodb.net/?retryWrites=true&w=majority"
+}
+
+
