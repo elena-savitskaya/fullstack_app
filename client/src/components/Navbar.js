@@ -20,7 +20,7 @@ export const Navbar = () => {
           <li><NavLink to="/create">Tasks</NavLink></li>
           <li><NavLink to="/links">Calendar</NavLink></li>
           <li><NavLink to="/links">Files</NavLink></li>
-          <li><a href="/" onClick={logoutHandler}>Log out</a></li>
+          <li><a href="/" onClick={logoutHandler}>Sign out</a></li>
         </ul>
       </div>
     </nav>
