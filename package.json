@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Mern stack",
   "main": "app.js",
+  "homepage": "https://elena-savitskaya.github.io/fullstack_app/",
   "scripts": {
+    "predeploy": "npm run client:build",
+    "deploy": "gh-pages -d client:build",
     "start": "cross-env NODE_ENV=production node app.js",
     "server": "nodemon app.js",
     "client": "npm run start --prefix client",
